@@ -2,11 +2,13 @@ dl {
     width: 200px;
 }
 dt:hover + dd {
-    background: purple;
+    background-color: purple;
 }
-
+table {
+    border: 1px solid gray;
+}
 tbody tr {
-    background: lightgreen;
+    background-color: lightgreen;
 }
 tbody td:nth-child(2) {
     color: red;
@@ -16,12 +18,24 @@ tbody td:nth-child(4) {
 }
 
 tbody tr:nth-child(even) {
-    background: lightblue;
+    background-color: lightblue;
 }
-tbody td:first-child {
+tbody th {
+    font-weight: normal;
     font-style: italic;
 }
 p img {
     float: left;
 }
 
+.outer-content {
+    width: 75%;
+    margin-top: 20px;
+    background-color: pink;
+}
+.inner-content {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: lightblue;
+}
