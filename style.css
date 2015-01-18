@@ -1,36 +1,49 @@
-dl {
-    width: 200px;
+/* Table styles */
+tbody th {
+    font-weight: normal;
+    font-style: italic;
 }
-dt:hover + dd {
-    background-color: purple;
-}
-table {
-    border: 1px solid gray;
-}
+
 tbody tr {
     background-color: lightgreen;
-}
-tbody td:nth-child(2) {
-    color: red;
-}
-tbody td:nth-child(4) {
-    color: blue;
 }
 
 tbody tr:nth-child(even) {
     background-color: lightblue;
 }
-tbody th {
-    font-weight: normal;
-    font-style: italic;
+
+tbody td:nth-child(2) {
+    color: red;
 }
-p img {
+
+tbody td:nth-child(4) {
+    color: blue;
+}
+
+/* Definition list styles */
+dt:hover + dd {
+    background-color: purple;
+}
+
+/* Paragraph-img styles */
+img {
     float: left;
 }
 
+/* Form styles */
+fieldset {
+    margin-top: 10px; 
+}
+fieldset[name="input_candy"] label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Inner-outer div */
 .outer-content {
     width: 75%;
     margin-top: 20px;
+    padding: 1px 0;
     background-color: pink;
 }
 .inner-content {
