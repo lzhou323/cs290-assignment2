@@ -1,173 +1,158 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta name="charset" content="utf-8">
-<link rel="stylesheet" href="style.css" type="text/css">
-</head>
-<body>
-<table border="1">
-    <caption>What I Think of Semiconductor Companies</caption>
-    <thead>
-      <tr>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>CS290 - Assignment 2 (Erik Ratcliffe, Winter 2015)</title>
+  </head>
+  <body>
+    <table border="1">
+      <caption>What I Think of Semiconductor Companies</caption>
+      <thead>
+        <tr>
           <th></th>
           <th>Atmel</th>
           <th>Microchip</th>
           <th>Texas Instruments</th>
           <th>ST Micro</th>
           <th>Parallax</th>
-      </tr>
-    </thead>
-    <tfoot>
-      <tr>
+        </tr>
+      </thead>
+      <tfoot>
+        <tr>
           <td colspan="2">Footer1</td>
           <td colspan="4">Footer2</td>
-      </tr>
-    </tfoot>
-    <tbody>
-      <tr>
+        </tr>
+      </tfoot>
+      <tbody>
+        <tr>
           <th>uControllers</th>
           <td>Amazing</td>
           <td>Mediocre</td>
           <td>Stupendous</td>
           <td>Accessible</td>
           <td>Easy</td>
-      </tr>
-      <tr>
+        </tr>
+        <tr>
           <th>ICs</th>
           <td>N/A</td>
           <td>N/A</td>
           <td>Top notch</td>
           <td>Generous</td>
           <td>N/A</td>
-      </tr>
-      <tr>
+        </tr>
+        <tr>
           <th>Maker engagement</th>
           <td>None better</td>
           <td>Antiquated</td>
           <td>Life changing</td>
           <td>Getting there</td>
           <td>Classic</td>
-      </tr>
-      <tr>
+          </tr>
+        <tr>
           <th>Complexity</th>
           <td>Easy</td>
           <td>Hard</td>
           <td>Just right</td>
           <td>Challenging</td>
           <td>Dog simple</td>
-      </tr>
-      <tr>
+        </tr>
+        <tr>
           <th>Website</th>
           <td>Perfection</td>
           <td>So-so</td>
           <td>Very helpful</td>
           <td>Confusing</td>
           <td>Messy</td>
-      </tr>
-    </tbody>
-</table>
-
-<dl>
-    <dt>Most Experience</dt>
-      <dd>Atmel AVR MCUs</dd>
-    <dt>Currently Learning</dt>
-      <dd>ST Micro's ARM Cortex M4</dd>
-    <dt>Never Again</dt>
-      <dd>Parallax Basic Stamps</dd>
-</dl>
-
-<form action="http://web.engr.oregonstate.edu/~osterbit/2/repo/class-content/form_tests/Formtest.php" method="post">
-  <fieldset name="form_post">
-    <legend>POST Form</legend>
-
-    <fieldset name="input_text">
-        <label>Text input <input type="text" name="text_input"></label>
-    </fieldset>
-
-    <fieldset name="input_numerical">
-        <label>Numerical input <input type="number" name="numerical_input"></label>
-    </fieldset>
-
-    <fieldset name="input_password">
-        <label>Password input <input type="password" name="password_input"></label>
-    </fieldset>
-
-    <fieldset name="input_candy">
-      <p>Select your favorite from the following choices:</p>
-
-      <label><input type="radio" name="candy" value="Snickers"> Snickers</label>
-      <label><input type="radio" name="candy" value="Skittles"> Skittles</label>
-      <label><input type="radio" name="candy" value="Mentos"> Mentos</label>
-
-      <input type="submit" value="Submit">
-    </fieldset>
-</fieldset>
-</form>
-
-<form action="http://web.engr.oregonstate.edu/~osterbit/2/repo/class-content/form_tests/Formtest.php" method="get">
-  <fieldset name="form_get">
-    <legend>GET Form</legend>
-
-    <fieldset name="input_text">
-        <label>Text input <input type="text" name="text_input"></label>
-    </fieldset>
-
-    <fieldset name="input_numerical">
-        <label>Numerical input <input type="number" name="numerical_input"></label>
-    </fieldset>
-
-    <fieldset name="input_password">
-        <label>Password input <input type="password" name="password_input"></label>
-    </fieldset>
-
-    <fieldset name="input_candy">
-      <p>Select your favorite from the following choices:</p>
-
-      <label><input type="radio" name="candy" value="Snickers"> Snickers</label>
-      <label><input type="radio" name="candy" value="Skittles"> Skittles</label>
-      <label><input type="radio" name="candy" value="Mentos"> Mentos</label>
-
-      <input type="submit" value="Submit">
-    </fieldset>
-</fieldset>
-
-</form>
-
-<div class="outer-content">
-    <div class="inner-content">
+        </tr>
+      </tbody>
+    </table>
+    
+    <dl>
+      <dt>Most Experience</dt>
+        <dd>Atmel AVR MCUs</dd>
+      <dt>Currently Learning</dt>
+        <dd>ST Micro's ARM Cortex M4</dd>
+      <dt>Never Again</dt>
+        <dd>Parallax Basic Stamps</dd>
+    </dl>
+    
+    <form action="http://web.engr.oregonstate.edu/~osterbit/2/repo/class-content/form_tests/Formtest.php" method="post" name="post-form">
+      <fieldset name="form_post">
+        <legend>POST Form</legend>
+        <fieldset name="input_text">
+          <label>Text input <input type="text" name="text_input"></label>
+        </fieldset>
+        <fieldset name="input_numerical">
+          <label>Numerical input <input type="number" name="numerical_input"></label>
+        </fieldset>
+        <fieldset name="input_password">
+          <label>Password input <input type="password" name="password_input"></label>
+        </fieldset>
+        <fieldset name="input_candy">
+          <p>Select your favorite from the following choices:</p>
+          <label><input type="radio" name="candy" value="Snickers"> Snickers</label>
+          <label><input type="radio" name="candy" value="Skittles"> Skittles</label>
+          <label><input type="radio" name="candy" value="Mentos"> Mentos</label>
+          <input type="submit" value="Submit">
+        </fieldset>
+      </fieldset>
+    </form>
+    
+    <form action="http://web.engr.oregonstate.edu/~osterbit/2/repo/class-content/form_tests/Formtest.php" method="get" name="get-form">
+      <fieldset name="form_get">
+        <legend>GET Form</legend>
+        <fieldset name="input_text">
+          <label>Text input <input type="text" name="text_input"></label>
+        </fieldset>
+        <fieldset name="input_numerical">
+          <label>Numerical input <input type="number" name="numerical_input"></label>
+        </fieldset>
+        <fieldset name="input_password">
+          <label>Password input <input type="password" name="password_input"></label>
+        </fieldset>
+        <fieldset name="input_candy">
+          <p>Select your favorite from the following choices:</p>
+          <label><input type="radio" name="candy" value="Snickers"> Snickers</label>
+          <label><input type="radio" name="candy" value="Skittles"> Skittles</label>
+          <label><input type="radio" name="candy" value="Mentos"> Mentos</label>
+          <input type="submit" value="Submit">
+        </fieldset>
+      </fieldset>
+    </form>
+    
+    <div class="outer-content">
+      <div class="inner-content">
         <p>Inner DIV</p>
+      </div>
     </div>
-</div>
-
-<div>
-  <img src="100x125.jpg" alt="Image of a cave wall">
-  
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean viverra
-  nisi sit amet gravida venenatis. Fusce consequat leo quis magna tempor, id
-  sollicitudin odio feugiat. Donec congue velit non risus pretium, eu
-  aliquam justo varius.  Etiam ultrices tortor vitae fermentum hendrerit.
-  Etiam aliquet, odio nec feugiat faucibus, quam turpis condimentum velit,
-  at aliquam mauris nulla ut nulla. Nunc gravida nisi nulla, quis tempor
-  elit lacinia eu. Nullam id feugiat sem. Nam vel fringilla tortor. Morbi eu
-  blandit massa. Donec dignissim lacus vel nunc laoreet pulvinar. Lorem
-  ipsum dolor sit amet, consectetur adipiscing elit. Aenean viverra nisi sit
-  amet gravida venenatis. Fusce consequat leo quis magna tempor, id
-  sollicitudin odio feugiat. Donec congue velit non risus pretium, eu
-  aliquam justo varius.  Etiam ultrices tortor vitae fermentum hendrerit.
-  Etiam aliquet, odio nec feugiat faucibus, quam turpis condimentum velit,
-  at aliquam mauris nulla ut nulla. Nunc gravida nisi nulla, quis tempor
-  elit lacinia eu. Nullam id feugiat sem. Nam vel fringilla tortor. Morbi eu
-  blandit massa.</p>
-  
-  <p>Praesent ut ex in lacus ultricies ornare. Sed ante sem, eleifend ac
-  condimentum quis, faucibus eget libero. Sed eget finibus quam. Vestibulum
-  sit amet elit aliquet eros tincidunt mollis eu vitae elit. Sed metus ex,
-  condimentum eu luctus at, consectetur quis nunc. Interdum et malesuada
-  fames ac ante ipsum primis in faucibus. Vivamus ante leo, viverra ac
-  ligula sed, molestie blandit metus. Sed a enim odio. Nulla bibendum nunc
-  lorem, in varius quam mollis id. Maecenas tempus ante ac erat iaculis
-  fringilla. Nunc et sapien at dolor ultricies viverra nec a ligula.</p>
-</div>
-
-</body>
+    
+    <div>
+      <img src="100x125.jpg" alt="Image of a cave wall">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean viverra
+      nisi sit amet gravida venenatis. Fusce consequat leo quis magna tempor, id
+      sollicitudin odio feugiat. Donec congue velit non risus pretium, eu
+      aliquam justo varius.  Etiam ultrices tortor vitae fermentum hendrerit.
+      Etiam aliquet, odio nec feugiat faucibus, quam turpis condimentum velit,
+      at aliquam mauris nulla ut nulla. Nunc gravida nisi nulla, quis tempor
+      elit lacinia eu. Nullam id feugiat sem. Nam vel fringilla tortor. Morbi eu
+      blandit massa. Donec dignissim lacus vel nunc laoreet pulvinar. Lorem
+      ipsum dolor sit amet, consectetur adipiscing elit. Aenean viverra nisi sit
+      amet gravida venenatis. Fusce consequat leo quis magna tempor, id
+      sollicitudin odio feugiat. Donec congue velit non risus pretium, eu
+      aliquam justo varius.  Etiam ultrices tortor vitae fermentum hendrerit.
+      Etiam aliquet, odio nec feugiat faucibus, quam turpis condimentum velit,
+      at aliquam mauris nulla ut nulla. Nunc gravida nisi nulla, quis tempor
+      elit lacinia eu. Nullam id feugiat sem. Nam vel fringilla tortor. Morbi eu
+      blandit massa.</p>
+      <p>Praesent ut ex in lacus ultricies ornare. Sed ante sem, eleifend ac
+      condimentum quis, faucibus eget libero. Sed eget finibus quam. Vestibulum
+      sit amet elit aliquet eros tincidunt mollis eu vitae elit. Sed metus ex,
+      condimentum eu luctus at, consectetur quis nunc. Interdum et malesuada
+      fames ac ante ipsum primis in faucibus. Vivamus ante leo, viverra ac
+      ligula sed, molestie blandit metus. Sed a enim odio. Nulla bibendum nunc
+      lorem, in varius quam mollis id. Maecenas tempus ante ac erat iaculis
+      fringilla. Nunc et sapien at dolor ultricies viverra nec a ligula.</p>
+    </div>
+  </body>
 </html>
